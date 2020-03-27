@@ -112,5 +112,14 @@ public class MyBinarySearchTree {
             q.remove();
         }
     }
+    public void leftView(TreeNode root) {
+        // Queue to store all
+        // the nodes of the tree
+        q = new LinkedList<TreeNode>();
+
+        printLeftTree(root);
+    }
+
+
 
 }
