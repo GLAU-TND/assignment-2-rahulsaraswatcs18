@@ -34,7 +34,7 @@ TraversalOperations t = new TraversalOperations();
         mst.insert(root, 3);
         t.printPreorder(root);
         System.out.println();
-        t.printPostorder(root
+        t.printPostorder(root);
 
 
 }
