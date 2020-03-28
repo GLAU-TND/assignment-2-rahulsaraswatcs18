@@ -16,6 +16,11 @@ public class MyQueue {
     private int size;
 
 
-
+    public MyQueue() {
+        front = null;
+        end = null;
+        tmp = null;
+        size = 0;
+    }
 
 }
