@@ -14,6 +14,10 @@ import problem5.student.Student;
 public class Node {
     private Student s;
     private Node next;
+    public Node(Student s) {
+        this.s = s;
+        next = null;
+    }
 
 
 
