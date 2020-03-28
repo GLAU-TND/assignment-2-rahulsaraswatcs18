@@ -62,6 +62,13 @@ public class Student {
         this.apperingcount = apperingcount;
     }
 
-
+    @Override
+    public String toString() {
+        return "name='" + name + '\'' +
+                ", rollno=" + rollno +
+                ", backlog=" + backlog +
+                ", apperingcount=" + apperingcount
+                ;
+    }
 
 }
