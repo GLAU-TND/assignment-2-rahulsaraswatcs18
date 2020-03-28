@@ -26,6 +26,17 @@ public class MyMain {
 
 
 
+        for (int i = 0; i < 5; i++) {
+            node = new Node(new Student());
+            m.enqueue(node);
+        }
+        m.printQueue();
+
+        m.remove(new Scanner(System.in).next());
+        m.printQueue();
+
+        m.process(new Scanner(System.in).next());
+
 
 
 
